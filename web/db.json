@@ -1,0 +1,155 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "customer_name": "Jane Doe",
+      "customer_id": 456,
+      "project_name": "E-commerce Website",
+      "chat_id": 34,
+      "description": "Online store for selling products",
+      "devloper_id": "uuid34",
+      "status": "in progress",
+      "start_date": "2024-01-15",
+      "end_date": "2024-06-30",
+      "budget": 50000,
+      "tasks": [
+        {
+          "task_id": 1,
+          "task_name": "Design homepage",
+          "status": "completed"
+        },
+        {
+          "task_id": 2,
+          "task_name": "Set up product catalog",
+          "status": "in progress"
+        }
+      ],
+      "messages": [
+        {
+          "message_id": 1,
+          "sender": "customer",
+          "content": "Hi, can we schedule a meeting?",
+          "timestamp": "2024-03-10T10:00:00Z"
+        },
+        {
+          "message_id": 2,
+          "sender": "developer",
+          "content": "Sure, how about tomorrow?",
+          "timestamp": "2024-03-10T11:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "customer_name": "John Smith",
+      "customer_id": 457,
+      "project_name": "Mobile App Development",
+      "chat_id": 35,
+      "description": "Fitness tracking mobile application",
+      "devloper_id": "uuid35",
+      "status": "not started",
+      "start_date": "2024-04-01",
+      "end_date": "2024-09-30",
+      "budget": 75000,
+      "tasks": [
+        {
+          "task_id": 1,
+          "task_name": "UI/UX Design",
+          "status": "not started"
+        }
+      ],
+      "messages": [
+        {
+          "message_id": 1,
+          "sender": "developer",
+          "content": "Project requirements received",
+          "timestamp": "2024-03-15T09:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "customer_name": "Sarah Wilson",
+      "customer_id": 458,
+      "project_name": "CRM System",
+      "chat_id": 36,
+      "description": "Customer relationship management system",
+      "devloper_id": "uuid36",
+      "status": "completed",
+      "start_date": "2023-11-01",
+      "end_date": "2024-02-28",
+      "budget": 60000,
+      "tasks": [
+        {
+          "task_id": 1,
+          "task_name": "Database setup",
+          "status": "completed"
+        }
+      ],
+      "messages": []
+    },
+    {
+      "id": 4,
+      "customer_name": "Mike Johnson",
+      "customer_id": 459,
+      "project_name": "Blog Platform",
+      "chat_id": 37,
+      "description": "Personal blogging platform",
+      "devloper_id": "uuid37",
+      "status": "on hold",
+      "start_date": "2024-02-01",
+      "end_date": "2024-05-30",
+      "budget": 25000,
+      "tasks": [
+        {
+          "task_id": 1,
+          "task_name": "Content editor",
+          "status": "in progress"
+        }
+      ],
+      "messages": []
+    },
+    {
+      "id": 5,
+      "customer_name": "Emily Brown",
+      "customer_id": 460,
+      "project_name": "Inventory System",
+      "chat_id": 38,
+      "description": "Warehouse management system",
+      "devloper_id": "uuid38",
+      "status": "in progress",
+      "start_date": "2024-03-01",
+      "end_date": "2024-07-31",
+      "budget": 45000,
+      "tasks": [
+        {
+          "task_id": 1,
+          "task_name": "Backend API",
+          "status": "in progress"
+        }
+      ],
+      "messages": []
+    },
+    {
+      "id": 6,
+      "customer_name": "David Lee",
+      "customer_id": 461,
+      "project_name": "Portfolio Website",
+      "chat_id": 39,
+      "description": "Personal portfolio showcase",
+      "devloper_id": "uuid39",
+      "status": "in progress",
+      "start_date": "2024-03-15",
+      "end_date": "2024-04-30",
+      "budget": 15000,
+      "tasks": [
+        {
+          "task_id": 1,
+          "task_name": "Responsive design",
+          "status": "not started"
+        }
+      ],
+      "messages": []
+    }
+  ]
+}
